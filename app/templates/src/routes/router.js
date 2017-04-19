@@ -9,17 +9,17 @@ import notFoundView from '../views/notFoundView.vue'; //错误页面
 Vue.use(VueRouter);
 
 export default new VueRouter({
-    mode: 'history',
-    routes: [
-        {
-            path: '/',
-            components: {
-                default: appView,
-            },
-            children: [
-                { path: '', component: indexView },
-            ]
-        },
-        { path: '*', component: notFoundView }
-    ]
+  mode  : 'history',
+  routes: [
+    {
+      path      : '/',
+      components: {
+        default: appView,
+      },
+      children  : [
+        {path: '', component: indexView},
+      ]
+    },
+    {path: '*', component: notFoundView}
+  ]
 })
