@@ -1,6 +1,6 @@
 {
   "name": "generator-vueyo",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Vue project builder with proxy, webpackDevServer and webpack2.",
   "main": "src/index.js",
   "engines": {
