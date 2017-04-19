@@ -1,0 +1,29 @@
+{
+  "name": "generator-vueyo",
+  "version": "1.0.0",
+  "description": "Vue project builder with proxy, webpackDevServer and webpack2.",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=4",
+    "npm": ">=1.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "vue2",
+    "generator",
+    "webpack2",
+    "webpackDevServer"
+  ],
+  "author": "JasonTao",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "yeoman-generator": "^0.24.1",
+    "yosay": "^1.2.0"
+  }
+}
