@@ -14,6 +14,7 @@
     "generators"
   ],
   "keywords": [
+    "yeoman-generator",
     "vue2",
     "generator",
     "webpack2",
